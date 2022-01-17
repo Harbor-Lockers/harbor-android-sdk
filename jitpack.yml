@@ -1,4 +1,3 @@
-install: 
-VERSION="1.0"
-FILE="-Dfile=harbor-android-sdk-$VERSION.aar"
-mvn install:install-file $FILE -DgroupId=com.harborlockers.sdk -DartifactId=harbor-android-sdk -Dversion=$VERSION -Dpackaging=aar -DpomFile=pom.xml
+install:
+FILE="-Dfile=harbor-android-sdk.aar"
+mvn install:install-file $FILE -DgroupId=com.harborlockers.sdk -DartifactId=harbor-android-sdk -Dversion="1.0" -Dpackaging=aar -DpomFile=pom.xml
