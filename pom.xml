@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.harborlockers.sdk</groupId>
   <artifactId>harbor-android-sdk</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <packaging>aar</packaging>
   <build>
     <plugins>
@@ -13,6 +13,9 @@
         <version>4.1.0</version>
         <extensions>true</extensions>
         <configuration>
+          <encoding>utf8</encoding>
+          <source>1.8</source>
+          <target>1.8</target>
           <sign>
             <debug>false</debug>
           </sign>
