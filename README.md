@@ -82,4 +82,6 @@ Add the following entries to your AndroidManifest.xml:
 
 The `android:required` value in the last line depends on wether you want your app to be listed to users that doesn’t have BLE support on their devices. This might be the case if all your app does is control lockers with Harbor SDK and can’t do anything useful without BLE support.
 
+Since Harbor SDK requires access to the user's location to scan for nearby devices through BLE, you'll need to manually request location permissions to the user in your app. Please refer to the official android documentation on how to request this.
+
 For steps on how to use the SDK to connect and interact with the tower, please refer to the [official documentation](https://docs.harborlockers.com/mobile_sdk.html#using-the-sdk)
